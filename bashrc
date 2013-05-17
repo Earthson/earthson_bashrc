@@ -170,11 +170,6 @@ bash_prompt() {
 }
 
 
-case "$COLORTERM" in
-  gnome-terminal)
-     ;;
-esac
-
 . /etc/profile.d/vte.sh
 PROMPT_COMMAND=bash_prompt_command
 bash_prompt
